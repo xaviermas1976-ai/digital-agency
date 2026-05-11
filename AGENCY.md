@@ -3,32 +3,213 @@
 > **Vision** : La meilleure agence marketing digitale au monde.
 > Inspirée de Fabrizio Lee, National Public Affairs, Push Digital, Phillips Strategies, Direct Persuasion.
 > **Modèle** : Un brief, un budget, une deadline = un bataillon d'agents déployé en parallèle.
+> **Cerveau** : JARVIS — mémoire persistante, apprentissage, orchestration stratégique.
 
 ---
 
-## ORGANIGRAMME — 16 DIVISIONS / 112 AGENTS / 8 WORKFLOWS
+## ORGANIGRAMME — 16 DIVISIONS / 112 AGENTS / 9 WORKFLOWS
 
 ```
-                            ┌─────────────────────┐
-                            │    APEX COMMAND      │
-                            │  (C-Suite — 5 agents)│
-                            └──────────┬──────────┘
-          ┌────────┬────────┬──────────┼──────────┬────────┬────────┐
-          ▼        ▼        ▼          ▼          ▼        ▼        ▼
-     STRATEGY  CREATIVE   SEO     PAID MEDIA   SOCIAL   WEB DEV  CONTENT
-     (Div.1)   (Div.2)  (Div.3)   (Div.4)    (Div.5)  (Div.6)  (Div.7)
-          │        │        │          │          │        │        │
-     ┌────┴───┬────┴───┬────┴────┬─────┴────┬────┴───┬────┴───┬────┘
-     ▼        ▼        ▼         ▼          ▼        ▼        ▼
-   EMAIL   ANALYTICS  GEO/AI    UX       LEGAL    AI/AUTO  CLIENT
-  (Div.8)  (Div.9)  (Div.10) (Div.11)  (Div.12) (Div.13) (Div.14)
-                                                            │
-                                                     QUALITY CONTROL
-                                                       (Div.15)
-                                                            │
-                                                   LINK BUILDING & PR
-                                                       (Div.16)
+                       ┌──────────────────────────┐
+                       │        J A R V I S        │
+                       │   Strategic Brain Layer   │
+                       │  Memory · Learning · ROI  │
+                       └────────────┬─────────────┘
+                                    │
+                          ┌─────────▼──────────┐
+                          │    APEX COMMAND     │
+                          │  (C-Suite — 5 agents)│
+                          └─────────┬──────────┘
+        ┌────────┬────────┬─────────┼─────────┬────────┬────────┐
+        ▼        ▼        ▼         ▼         ▼        ▼        ▼
+   STRATEGY  CREATIVE   SEO    PAID MEDIA  SOCIAL   WEB DEV  CONTENT
+   (Div.1)   (Div.2)  (Div.3)  (Div.4)   (Div.5)  (Div.6)  (Div.7)
+        │        │        │         │         │        │        │
+   ┌────┴───┬────┴───┬────┴───┬─────┴────┬────┴───┬────┴───┬────┘
+   ▼        ▼        ▼        ▼          ▼        ▼        ▼
+ EMAIL  ANALYTICS  GEO/AI    UX       LEGAL   AI/AUTO  CLIENT
+(Div.8) (Div.9)  (Div.10) (Div.11) (Div.12) (Div.13) (Div.14)
+                                                        │
+                                                 QUALITY CONTROL
+                                                   (Div.15)
+                                                        │
+                                               LINK BUILDING & PR
+                                                   (Div.16)
+
+═══════════════════════════════════════════════════════════════
+         JARVIS PERSISTENT LAYER (runs across all divisions)
+═══════════════════════════════════════════════════════════════
+ MEMORY    │  CLIENT       │  LEARNING    │  CROSS-PROJECT
+ SYSTEM    │  INTELLIGENCE │  ENGINE      │  SYNERGY
+───────────┼───────────────┼─────────────-┼──────────────────
+ Stores    │  Tracks every │  Every       │  Insight from
+ every     │  client pref, │  campaign    │  Client A feeds
+ decision, │  stakeholder, │  result      │  strategy for
+ outcome,  │  approval     │  trains the  │  Client B —
+ learning  │  chain,       │  next one.   │  patterns,
+ across    │  budget gate, │  Win/loss    │  benchmarks,
+ sessions  │  deadline     │  analysis    │  playbooks
+           │               │  auto-saved  │
 ```
+
+---
+
+## JARVIS × APEX — THE FUSION PROTOCOL
+
+> *JARVIS is the brain. APEX is the army. Together: an autonomous agency that learns, adapts, and dominates.*
+
+### Architecture — Two Layers, One Machine
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                        JARVIS LAYER                                 │
+│  ┌──────────┐  ┌──────────────┐  ┌───────────┐  ┌──────────────┐  │
+│  │ MEMORY   │  │  PLANNER     │  │ LEARNER   │  │  ROUTER      │  │
+│  │          │  │              │  │           │  │              │  │
+│  │ Past     │  │ Decomposes   │  │ Extracts  │  │ Picks the    │  │
+│  │ clients, │  │ any brief    │  │ patterns  │  │ right APEX   │  │
+│  │ results, │  │ into the     │  │ from      │  │ workflow(s)  │  │
+│  │ prefs,   │  │ optimal      │  │ completed │  │ based on     │  │
+│  │ feedback │  │ sequence of  │  │ campaigns │  │ brief +      │  │
+│  │ → never  │  │ APEX         │  │ → feeds   │  │ memory +     │  │
+│  │ forgets  │  │ workflows    │  │ strategy  │  │ budget       │  │
+│  └──────────┘  └──────────────┘  └───────────┘  └──────────────┘  │
+│         │              │               │               │           │
+│         └──────────────┴───────────────┴───────────────┘           │
+│                                │                                    │
+│                    ┌───────────▼───────────┐                       │
+│                    │   DECISION ENGINE     │                       │
+│                    │                       │                       │
+│                    │  "Client X needs SEO  │                       │
+│                    │   + Backlinks + GEO.  │                       │
+│                    │   Budget: $5K/mo.     │                       │
+│                    │   Similar to Client Y │                       │
+│                    │   who got 340% ROI    │                       │
+│                    │   with this exact     │                       │
+│                    │   combo in 2025."     │                       │
+│                    └───────────┬───────────┘                       │
+└────────────────────────────────┼────────────────────────────────────┘
+                                 │
+                    ┌────────────▼────────────┐
+                    │      APEX LAYER         │
+                    │                         │
+                    │  112 agents deployed    │
+                    │  in parallel across     │
+                    │  16 divisions.          │
+                    │                         │
+                    │  Each agent executes,   │
+                    │  scores, returns        │
+                    │  structured data.       │
+                    │                         │
+                    │  JARVIS collects ALL    │
+                    │  results, learns,       │
+                    │  persists to memory.    │
+                    └─────────────────────────┘
+```
+
+### The JARVIS × APEX Loop — How It Works
+
+```
+STEP 1 — JARVIS RECEIVES BRIEF
+    │
+    ├── Load memory: past clients, similar campaigns, industry benchmarks
+    ├── Load learnings: what worked, what failed, what to avoid
+    ├── Analyze budget vs. scope → recommend optimal workflow combo
+    │
+    ▼
+STEP 2 — JARVIS PLANS
+    │
+    ├── Decompose brief into parallel workstreams
+    ├── Assign priority weights (ROI potential per workflow)
+    ├── Set quality gates and success metrics per deliverable
+    ├── Identify cross-workflow synergies (SEO content → backlink assets)
+    │
+    ▼
+STEP 3 — JARVIS DEPLOYS APEX
+    │
+    ├── Route to APEX Command with structured plan
+    ├── APEX spawns 20-70+ agents across selected workflows
+    ├── All independent agents run in PARALLEL — maximum speed
+    ├── Quality Control (Div.15) validates every output
+    │
+    ▼
+STEP 4 — JARVIS COLLECTS & LEARNS
+    │
+    ├── Aggregate all agent outputs → unified client deliverable
+    ├── Score campaign effectiveness (projected vs actual)
+    ├── Extract learnings: what to replicate, what to change
+    ├── Persist to memory: client prefs, results, patterns
+    ├── Update cross-project intelligence: if this worked for Client A,
+    │   recommend same approach to similar Client B
+    │
+    ▼
+STEP 5 — JARVIS OPTIMIZES (CONTINUOUS)
+    │
+    ├── Monthly: re-audit every active client automatically
+    ├── Quarterly: strategic review with updated market data
+    ├── Cross-pollination: best-performing content templates,
+    │   outreach sequences, ad creatives → become agency playbooks
+    └── Portfolio learning: industry-specific patterns emerge
+        (e.g. "SaaS clients get 2.3x more from GEO than local SEO")
+```
+
+### JARVIS Persistent Intelligence
+
+JARVIS maintains a **living knowledge base** across all clients and campaigns:
+
+| Intelligence Layer | What JARVIS Remembers | How It Uses It |
+|---|---|---|
+| **Client DNA** | Industry, budget, stakeholders, approval speed, risk tolerance, brand voice | Tailors every deliverable to client personality — no generic output |
+| **Campaign Playbooks** | Which workflow combos delivered best ROI per industry/budget tier | Auto-recommends the optimal strategy for new briefs |
+| **Content Arsenal** | Top-performing headlines, CTAs, ad creatives, email subjects, anchor text patterns | Seeds new campaigns with proven winners as starting templates |
+| **Backlink Intelligence** | Which sites accepted guest posts, response rates by outreach template, niche edit success rates | Outreach Machine starts with warm leads, not cold lists |
+| **Competitive Map** | Every competitor analyzed across all clients, their strengths/weaknesses, movement over time | Spots market shifts before clients do — proactive strategy |
+| **Quality Patterns** | Common Reality Checker failures, recurring QA issues, score distributions | Pre-empts quality problems — agents know what to avoid |
+| **Budget Efficiency** | Cost per deliverable, cost per backlink, cost per lead by channel/industry | Financial Analyst starts with benchmarks, not guesses |
+| **Timing Intelligence** | Best send times, best publish days, seasonal patterns by industry | Every campaign launches at the optimal moment |
+
+### JARVIS Auto-Pilot Mode
+
+When JARVIS has enough data on a client (3+ campaigns), it can run **fully autonomous**:
+
+```
+JARVIS AUTO-PILOT (per client)
+    │
+    ├── WEEKLY: Monitor rankings, traffic, backlink profile
+    │   └── If drop detected → auto-trigger SEO audit + fix deployment
+    │
+    ├── BI-WEEKLY: Social performance review
+    │   └── If engagement drops 20%+ → auto-adjust content strategy
+    │
+    ├── MONTHLY: Full performance report
+    │   ├── Auto-generate PDF via Document Generator
+    │   ├── ROI tracking vs projections
+    │   ├── Recommended optimizations for next month
+    │   └── Auto-send to client stakeholders (if approved)
+    │
+    ├── QUARTERLY: Strategic re-assessment
+    │   ├── Market trend analysis (3 agents)
+    │   ├── Competitor movement audit (2 agents)
+    │   ├── Budget reallocation recommendations
+    │   └── New opportunity identification
+    │
+    └── CONTINUOUS: Backlink monitoring
+        ├── Lost links → auto-outreach for replacement
+        ├── New competitor links → auto-add to acquisition pipeline
+        ├── Toxic link alerts → auto-disavow
+        └── DA milestones → auto-celebrate + report to client
+```
+
+### JARVIS × APEX Commands
+
+| Command | What Happens |
+|---------|-------------|
+| `/jarvis brief <client> <url>` | JARVIS loads memory → plans → deploys APEX WF1 with intelligence |
+| `/jarvis campaign <client>` | JARVIS analyzes client DNA → recommends + deploys optimal workflow combo |
+| `/jarvis autopilot <client>` | Activates autonomous monitoring + optimization loop |
+| `/jarvis learn` | Forces learning extraction from all recent campaigns |
+| `/jarvis portfolio` | Cross-client intelligence dashboard — patterns, benchmarks, opportunities |
+| `/jarvis playbook <industry>` | Generates industry-specific playbook from aggregated learnings |
 
 ---
 
@@ -532,6 +713,98 @@ BRIEF BACKLINKS (url + niche + competitors)
     └──▶ [Analytics Reporter] ── dashboard backlinks, DR progression, link velocity
 ```
 
+### WORKFLOW 9 — JARVIS Autonomous Campaign (The God Mode)
+
+```
+JARVIS RECEIVES CLIENT BRIEF
+    │
+    ▼
+PHASE 0 — MEMORY RECALL (instant)
+    │
+    ├── Load all past clients in same industry
+    ├── Load all campaign results, playbooks, learnings
+    ├── Load competitive intelligence map
+    ├── Calculate: optimal budget split based on historical ROI
+    │
+    ▼
+PHASE 1 — INTELLIGENT PLANNING (Jarvis solo)
+    │
+    ├── Decompose brief into workflow matrix:
+    │     Score each workflow (1-10) by relevance to brief
+    │     Example: SaaS client → SEO(9) + GEO(8) + Backlinks(7) + Paid(6)
+    │
+    ├── Cross-reference with memory:
+    │     "Client in same niche got 340% ROI from SEO+Backlinks combo"
+    │     "Guest post DA50+ in this vertical: 12% response rate"
+    │     "Best ad creative pattern: problem-agitate-solve"
+    │
+    ├── Set success criteria per workflow:
+    │     SEO: +40% organic traffic in 90 days
+    │     Backlinks: +30 DR40+ referring domains in 60 days
+    │     GEO: appear in 3+ AI search engines within 30 days
+    │
+    └── Generate JARVIS BATTLE PLAN → save to client folder
+    │
+    ▼
+PHASE 2 — APEX FULL DEPLOY (parallel, all selected workflows)
+    │
+    ├── JARVIS routes to APEX Command with enriched brief:
+    │     Original brief + memory context + historical benchmarks
+    │
+    ├── APEX deploys 40-112 agents across selected workflows
+    │     All independent agents run SIMULTANEOUSLY
+    │
+    ├── Each workflow produces scored deliverables:
+    │     Score ≥ 80/100 = ship
+    │     Score 60-79 = revise with feedback
+    │     Score < 60 = reject + redo
+    │
+    └── Quality Control (Div.15) validates everything
+    │
+    ▼
+PHASE 3 — JARVIS SYNTHESIS (after all agents return)
+    │
+    ├── Aggregate all agent outputs into unified strategy
+    ├── Remove contradictions between workflows
+    ├── Cross-link synergies:
+    │     Skyscraper content (WF8) → seed Social campaigns (WF5)
+    │     Guest posts (WF8) → fuel Digital PR (WF8)
+    │     SEO keywords (WF2) → inform Paid Media targeting (WF3)
+    │     Email sequences (WF7) → nurture backlink prospects (WF8)
+    │
+    ├── Generate unified deliverable package:
+    │     Executive summary (Chief of Staff)
+    │     Strategy deck (Document Generator)
+    │     90-day action plan with weekly milestones
+    │     Budget allocation with ROI projections
+    │
+    └── Save everything to client folder
+    │
+    ▼
+PHASE 4 — JARVIS LEARNS (automatic, post-delivery)
+    │
+    ├── Score prediction accuracy:
+    │     "Predicted 40% traffic increase → actual 52% → model updated"
+    │
+    ├── Extract reusable patterns:
+    │     Best outreach templates → agency playbook
+    │     Top-performing ad creatives → template library
+    │     Winning content frameworks → content arsenal
+    │
+    ├── Update competitive map:
+    │     Every competitor analyzed → cross-client intelligence
+    │
+    ├── Persist to memory:
+    │     Client preferences, results, learnings
+    │     Industry benchmarks updated
+    │     Agent performance scores
+    │
+    └── Feed forward:
+        Next campaign for this client starts with
+        EVERYTHING learned from this one.
+        Next similar client starts with industry playbook.
+```
+
 ---
 
 ## COMMANDES D'ACTIVATION
@@ -546,9 +819,14 @@ BRIEF BACKLINKS (url + niche + competitors)
 | `GEO AUDIT [url]` | Audit visibilité AI (WF6) |
 | `EMAIL CAMPAIGN [brief]` | Campagne email/fundraising (WF7) |
 | `BACKLINKS [url]` | Campagne link building 12 agents (WF8) |
-| `FULL DEPLOY [brief]` | **TOUT** — les 8 workflows en parallèle |
+| `JARVIS CAMPAIGN [client]` | **JARVIS + APEX** — autonomous intelligent campaign (WF9) |
+| `FULL DEPLOY [brief]` | **TOUT** — les 9 workflows en parallèle |
 | `STATUS` | État de tous les projets actifs |
 | `REPORT [client]` | Rapport consolidé PDF |
+| `JARVIS AUTOPILOT [client]` | Monitoring + optimisation continue autonome |
+| `JARVIS LEARN` | Extraction forcée des learnings |
+| `JARVIS PORTFOLIO` | Dashboard cross-clients intelligence |
+| `JARVIS PLAYBOOK [industry]` | Playbook industrie depuis données agrégées |
 
 ---
 
@@ -561,6 +839,9 @@ BRIEF BACKLINKS (url + niche + competitors)
 5. **Score minimum** — pas de livrable en dessous du seuil qualité défini par le client
 6. **Feedback loop** — chaque campagne nourrit la suivante via Experiment Tracker
 7. **Budget-aware** — Financial Analyst valide chaque allocation avant exécution
+8. **JARVIS remembers** — chaque décision, résultat, feedback client persiste. Rien n'est perdu.
+9. **Cross-pollination** — ce qui marche pour un client est proposé aux clients similaires
+10. **Autonomie totale** — JARVIS + APEX ne demandent jamais de confirmation, ils exécutent
 
 ---
 
@@ -578,7 +859,28 @@ BRIEF BACKLINKS (url + niche + competitors)
 | Design | Figma + AI image gen |
 | CI/CD | Vercel / Cloudflare Pages |
 | Monitoring | Sentry + UptimeRobot |
+| **Brain** | **JARVIS — persistent memory, cross-session learning** |
+| **Army** | **APEX — 112 agents, 16 divisions, parallel execution** |
 
 ---
 
-*APEX DIGITAL — 16 divisions. 112 agents. 8 workflows. 1 mission : domination totale.*
+## POURQUOI C'EST IMBATTABLE
+
+```
+AGENCY TRADITIONNELLE          vs.          JARVIS × APEX
+─────────────────────                       ─────────────────
+5 personnes sur 1 projet                    112 agents en parallèle
+Perd le contexte entre meetings             JARVIS ne perd JAMAIS rien
+Chaque client repart de zéro               Chaque client hérite des learnings
+1 audit SEO = 2 semaines                   1 audit SEO = 13 agents × 5 minutes
+Backlinks = 1 stagiaire qui envoie         12 agents spécialisés en parallèle
+  des emails froids                          chacun avec sa stratégie
+Quality = "ça a l'air bien"               Quality = Reality Checker + preuves
+Budget = "on verra"                        Budget = Financial Analyst + ROI track
+Feedback = perdu dans Slack                Feedback = persisté en mémoire, utilisé
+                                             pour chaque décision future
+```
+
+---
+
+*APEX DIGITAL — 16 divisions. 112 agents. 9 workflows. JARVIS brain. 1 mission : domination totale.*
