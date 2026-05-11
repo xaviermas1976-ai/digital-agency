@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Derniere nouvelle de votre Chaloumi</title>
+  <style>
+    body { margin: 0; padding: 0; background-color: #FBF7F0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .wrapper { max-width: 600px; margin: 0 auto; background: #ffffff; }
+    .header { background: #1B3A1C; padding: 24px 32px; text-align: center; }
+    .header-text { color: #ffffff; font-size: 24px; font-family: Georgia, serif; letter-spacing: 2px; }
+    .body { padding: 32px; }
+    .body h1 { font-family: Georgia, serif; color: #171717; font-size: 24px; margin: 0 0 16px; }
+    .body p { color: #404040; font-size: 16px; line-height: 1.6; margin: 0 0 16px; }
+    .cta { display: inline-block; background: #C8553D; color: #ffffff !important; padding: 14px 32px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 16px; margin: 8px 0 24px; }
+    .cta-quiet { display: inline-block; color: #737373 !important; padding: 10px 20px; text-decoration: underline; font-size: 14px; }
+    .divider { border: none; border-top: 1px solid #e5e5e5; margin: 24px 0; }
+    .footer { background: #f5f5f5; padding: 24px 32px; text-align: center; }
+    .footer p { color: #737373; font-size: 12px; line-height: 1.5; margin: 0 0 8px; }
+    .footer a { color: #2C5F2D; }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="header-text">CHALOUMI</div>
+    </div>
+
+    <div class="body">
+      <h1>On se dit au revoir ?</h1>
+
+      <p>{{prenom}}, cela fait 3 mois qu'on ne s'est pas parle. On ne veut pas encombrer votre boite mail si le Chaloumi ne vous interesse plus.</p>
+
+      <p>Mais avant de partir, sachez que :</p>
+
+      <ul style="color:#404040; line-height:1.8;">
+        <li>Nous avons lance de <strong>nouvelles recettes</strong> sur notre blog</li>
+        <li>Le coffret saisonnier ete est disponible</li>
+        <li>Votre code <strong style="color:#C8553D;">RETOUR15</strong> est toujours actif</li>
+      </ul>
+
+      <p style="text-align:center;">
+        <a href="https://chaloumi.fr/boutique?code=RETOUR15" class="cta">Oui, je reviens ! →</a>
+      </p>
+
+      <p style="text-align:center;">
+        <a href="{{unsubscribe}}" class="cta-quiet">Non merci, desabonnez-moi</a>
+      </p>
+
+      <hr class="divider">
+
+      <p style="font-size:14px; color:#737373;">Si on n'a pas de nouvelles, on vous retirera automatiquement de notre liste dans 7 jours. On garde votre place au chaud, au cas ou.</p>
+    </div>
+
+    <div class="footer">
+      <p>CHALOUMI — Fromage artisanal de Chypre</p>
+      <p><a href="{{unsubscribe}}">Se desabonner</a></p>
+    </div>
+  </div>
+</body>
+</html>

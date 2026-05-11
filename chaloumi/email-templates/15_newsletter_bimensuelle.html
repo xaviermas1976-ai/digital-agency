@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Gazette du Chaloumi</title>
+  <style>
+    body { margin: 0; padding: 0; background-color: #FBF7F0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .wrapper { max-width: 600px; margin: 0 auto; background: #ffffff; }
+    .header { background: #1B3A1C; padding: 24px 32px; text-align: center; }
+    .header-text { color: #ffffff; font-size: 24px; font-family: Georgia, serif; letter-spacing: 2px; }
+    .header-sub { color: #BBF7D0; font-size: 13px; margin-top: 4px; letter-spacing: 1px; }
+    .body { padding: 32px; }
+    .body h1 { font-family: Georgia, serif; color: #171717; font-size: 26px; margin: 0 0 8px; }
+    .body h2 { font-family: Georgia, serif; color: #1B3A1C; font-size: 20px; margin: 24px 0 12px; }
+    .body p { color: #404040; font-size: 16px; line-height: 1.6; margin: 0 0 16px; }
+    .cta { display: inline-block; background: #C8553D; color: #ffffff !important; padding: 14px 32px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 16px; margin: 8px 0 24px; }
+    .recipe-card { background: #FBF7F0; border-radius: 12px; padding: 20px; margin: 16px 0; }
+    .recipe-card h3 { font-family: Georgia, serif; color: #171717; margin: 0 0 8px; font-size: 18px; }
+    .recipe-card p { margin: 0; font-size: 14px; color: #404040; }
+    .news-item { border-left: 3px solid #2C5F2D; padding-left: 16px; margin: 16px 0; }
+    .news-item h3 { margin: 0 0 4px; font-size: 16px; color: #171717; }
+    .news-item p { margin: 0; font-size: 14px; color: #737373; }
+    .product-highlight { background: linear-gradient(135deg, #1B3A1C, #2C5F2D); border-radius: 12px; padding: 24px; margin: 20px 0; text-align: center; color: white; }
+    .product-highlight h3 { margin: 0 0 8px; font-family: Georgia, serif; font-size: 20px; }
+    .product-highlight .price { font-size: 28px; font-weight: 700; margin: 8px 0; }
+    .product-highlight p { margin: 4px 0 0; font-size: 14px; opacity: 0.8; }
+    .social-links { text-align: center; margin: 16px 0; }
+    .social-links a { display: inline-block; margin: 0 8px; color: #2C5F2D; text-decoration: none; font-size: 14px; }
+    .divider { border: none; border-top: 1px solid #e5e5e5; margin: 24px 0; }
+    .footer { background: #f5f5f5; padding: 24px 32px; text-align: center; }
+    .footer p { color: #737373; font-size: 12px; line-height: 1.5; margin: 0 0 8px; }
+    .footer a { color: #2C5F2D; }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- HEADER -->
+    <div class="header">
+      <div class="header-text">CHALOUMI</div>
+      <div class="header-sub">LA GAZETTE · {{mois}} {{annee}}</div>
+    </div>
+
+    <div class="body">
+      <!-- INTRO -->
+      <h1>Bonjour {{prenom}},</h1>
+      <p>{{intro_text}}</p>
+
+      <hr class="divider">
+
+      <!-- RECETTE DU MOIS -->
+      <h2>La recette du mois</h2>
+      <div class="recipe-card">
+        <h3>{{recette_titre}}</h3>
+        <p><strong>Ingredients :</strong> {{recette_ingredients}}</p>
+        <p><strong>Preparation :</strong> {{recette_prep}}</p>
+        <p>{{recette_description}}</p>
+      </div>
+
+      <p style="text-align:center;">
+        <a href="{{recette_url}}" class="cta">Voir la recette complete →</a>
+      </p>
+
+      <hr class="divider">
+
+      <!-- ACTUALITES -->
+      <h2>Les nouvelles du Chaloumi</h2>
+
+      <div class="news-item">
+        <h3>{{news_1_titre}}</h3>
+        <p>{{news_1_texte}}</p>
+      </div>
+
+      <div class="news-item">
+        <h3>{{news_2_titre}}</h3>
+        <p>{{news_2_texte}}</p>
+      </div>
+
+      <div class="news-item">
+        <h3>{{news_3_titre}}</h3>
+        <p>{{news_3_texte}}</p>
+      </div>
+
+      <hr class="divider">
+
+      <!-- PRODUIT MIS EN AVANT -->
+      <h2>Le coup de coeur</h2>
+      <div class="product-highlight">
+        <h3>{{produit_titre}}</h3>
+        <div class="price">{{produit_prix}}</div>
+        <p>{{produit_description}}</p>
+      </div>
+
+      <p style="text-align:center;">
+        <a href="{{produit_url}}" class="cta">Commander →</a>
+      </p>
+
+      <hr class="divider">
+
+      <!-- UGC / COMMUNAUTE -->
+      <h2>#MonChaloumiMoment</h2>
+      <p>{{ugc_intro}}</p>
+      <p style="text-align:center; font-style:italic; color:#737373;">"{{ugc_citation}}" — {{ugc_auteur}}</p>
+      <p style="text-align:center; font-size:14px;">Partagez vos creations avec <strong>#MonChaloumiMoment</strong> sur Instagram</p>
+
+      <hr class="divider">
+
+      <!-- SOCIAL LINKS -->
+      <div class="social-links">
+        <a href="https://instagram.com/chaloumi.fr">Instagram</a> ·
+        <a href="https://tiktok.com/@chaloumi.fr">TikTok</a> ·
+        <a href="https://pinterest.fr/chaloumifrance">Pinterest</a>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <p>CHALOUMI — Fromage artisanal de Chypre</p>
+      <p>Vous recevez cet email car vous etes inscrit(e) a notre newsletter.</p>
+      <p><a href="{{unsubscribe}}">Se desabonner</a> · <a href="{{preferences}}">Gerer mes preferences</a></p>
+    </div>
+  </div>
+</body>
+</html>

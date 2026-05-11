@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les coulisses : de la chevre a votre assiette</title>
+  <style>
+    body { margin: 0; padding: 0; background-color: #FBF7F0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .wrapper { max-width: 600px; margin: 0 auto; background: #ffffff; }
+    .header { background: #1B3A1C; padding: 24px 32px; text-align: center; }
+    .header-text { color: #ffffff; font-size: 24px; font-family: Georgia, serif; letter-spacing: 2px; }
+    .body { padding: 32px; }
+    .body h1 { font-family: Georgia, serif; color: #171717; font-size: 24px; margin: 0 0 16px; }
+    .body p { color: #404040; font-size: 16px; line-height: 1.6; margin: 0 0 16px; }
+    .cta { display: inline-block; background: #C8553D; color: #ffffff !important; padding: 14px 32px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 16px; margin: 8px 0 24px; }
+    .step { display: flex; gap: 16px; margin: 16px 0; align-items: flex-start; }
+    .step-num { background: #2C5F2D; color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; flex-shrink: 0; }
+    .step-text h3 { font-family: Georgia, serif; margin: 0 0 4px; color: #171717; font-size: 16px; }
+    .step-text p { margin: 0; font-size: 14px; color: #737373; }
+    .divider { border: none; border-top: 1px solid #e5e5e5; margin: 24px 0; }
+    .footer { background: #f5f5f5; padding: 24px 32px; text-align: center; }
+    .footer p { color: #737373; font-size: 12px; line-height: 1.5; margin: 0 0 8px; }
+    .footer a { color: #2C5F2D; }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="header-text">CHALOUMI</div>
+    </div>
+
+    <div class="body">
+      <p style="color:#2C5F2D; font-size:13px; text-transform:uppercase; letter-spacing:1px;">Les coulisses</p>
+      <h1>De la chevre a votre assiette en 6 etapes</h1>
+
+      <p>{{prenom}}, vous vous etes deja demande comment est fabrique votre Chaloumi ? Voici les 6 etapes, exactement comme elles se passent chaque semaine dans notre atelier :</p>
+
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">
+          <h3>La traite du matin (5h)</h3>
+          <p>Le lait de chevre est collecte frais, directement des chevres elevees en liberte sur les collines du Troodos.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">
+          <h3>Le caillage</h3>
+          <p>Le lait est chauffe doucement puis coagule avec de la presure vegetale (pas animale). Le caille se forme en 45 minutes.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">
+          <h3>Le filage a la main</h3>
+          <p>Le caille est etire et file a la main dans l'eau chaude. C'est cette etape qui donne au Chaloumi sa texture elastique unique.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-text">
+          <h3>Le moulage</h3>
+          <p>Chaque bloc est moule individuellement. Pas de machine : les mains de l'artisan donnent a chaque Chaloumi sa forme caracteristique.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-text">
+          <h3>Le salage au sel de mer</h3>
+          <p>Un bain de saumure au sel marin pendant plusieurs heures. Le sel preserve le fromage naturellement, sans aucun conservateur chimique.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">6</div>
+        <div class="step-text">
+          <h3>L'emballage et l'expedition</h3>
+          <p>Emballe sous vide, place dans un coffret isotherme avec gel refrigerant. Expedition par Chronofresh en 48h, entre 0°C et 4°C.</p>
+        </div>
+      </div>
+
+      <p><strong>Resultat :</strong> un fromage vivant, sans additifs, qui arrive chez vous aussi frais que s'il sortait de l'atelier.</p>
+
+      <p style="text-align:center;">
+        <a href="https://chaloumi.fr/boutique" class="cta">Gouter le Chaloumi →</a>
+      </p>
+    </div>
+
+    <div class="footer">
+      <p>CHALOUMI — Fromage artisanal de Chypre</p>
+      <p><a href="{{unsubscribe}}">Se desabonner</a></p>
+    </div>
+  </div>
+</body>
+</html>

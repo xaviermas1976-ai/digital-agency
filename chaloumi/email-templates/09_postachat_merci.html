@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merci {{prenom}} ! Votre Chaloumi est en route</title>
+  <style>
+    body { margin: 0; padding: 0; background-color: #FBF7F0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .wrapper { max-width: 600px; margin: 0 auto; background: #ffffff; }
+    .header { background: #1B3A1C; padding: 24px 32px; text-align: center; }
+    .header-text { color: #ffffff; font-size: 24px; font-family: Georgia, serif; letter-spacing: 2px; }
+    .body { padding: 32px; }
+    .body h1 { font-family: Georgia, serif; color: #171717; font-size: 24px; margin: 0 0 16px; }
+    .body p { color: #404040; font-size: 16px; line-height: 1.6; margin: 0 0 16px; }
+    .cta { display: inline-block; background: #C8553D; color: #ffffff !important; padding: 14px 32px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 16px; margin: 8px 0 16px; }
+    .cta-secondary { display: inline-block; background: #ffffff; color: #2C5F2D !important; border: 2px solid #2C5F2D; padding: 12px 28px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 14px; margin: 8px 8px; }
+    .tracking-box { background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 12px; padding: 20px; margin: 20px 0; text-align: center; }
+    .tracking-box h3 { color: #166534; margin: 0 0 8px; font-size: 16px; }
+    .tracking-box p { color: #166534; margin: 0; font-size: 14px; }
+    .divider { border: none; border-top: 1px solid #e5e5e5; margin: 24px 0; }
+    .footer { background: #f5f5f5; padding: 24px 32px; text-align: center; }
+    .footer p { color: #737373; font-size: 12px; line-height: 1.5; margin: 0 0 8px; }
+    .footer a { color: #2C5F2D; }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="header-text">CHALOUMI</div>
+    </div>
+
+    <div class="body">
+      <h1>Merci {{prenom}} ! 🎉</h1>
+
+      <p>Votre commande est confirmee. Votre Chaloumi artisanal est en cours de preparation dans notre atelier a Chypre.</p>
+
+      <div class="tracking-box">
+        <h3>✅ Commande #{{order_number}} confirmee</h3>
+        <p>Expedition prevue sous 24h · Livraison estimee dans 48-72h</p>
+      </div>
+
+      <p><strong>Recap commande :</strong></p>
+      <p>{{product_name}} — {{product_variant}}<br>
+      <strong>Total : {{order_total}}€</strong></p>
+
+      <p>Des que votre colis sera expedie, vous recevrez un email avec votre numero de suivi Chronofresh.</p>
+
+      <hr class="divider">
+
+      <p><strong>En attendant, partagez la decouverte :</strong></p>
+      <p>Parrainez un ami et recevez tous les deux -5€ sur votre prochaine commande !</p>
+
+      <p style="text-align:center;">
+        <a href="{{referral_url}}" class="cta">Parrainer un ami →</a>
+      </p>
+
+      <p style="text-align:center;">
+        <a href="https://instagram.com/chaloumi.fr" class="cta-secondary">Suivez-nous sur Instagram</a>
+        <a href="https://tiktok.com/@chaloumi.fr" class="cta-secondary">TikTok</a>
+      </p>
+    </div>
+
+    <div class="footer">
+      <p>CHALOUMI — Fromage artisanal de Chypre</p>
+      <p><a href="{{unsubscribe}}">Se desabonner</a></p>
+    </div>
+  </div>
+</body>
+</html>
